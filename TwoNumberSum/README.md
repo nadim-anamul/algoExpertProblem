@@ -38,4 +38,4 @@
 <li>If we don't get the target value in the array we will finally return empty array</li>
 </ul>
 <h3>Complexity Analysis</h3>
-<p>We loop trough all the item so for time complexity it is O(n) which is linear. We are initialize new variable to store left and right value which we are reassigning. So the space complexity is O(1) which is constant.</p>
+<p>We are sorting array which we can consider time complexity of O(nLogn).We loop trough all the item so for time complexity it is O(n) which is linear. So the total time complexity should be O(nLogn) + O(n). Big-O notation gives us a way to compare different algorithms based on their growth rates, and ignore the constant factors or lower order terms that do not affect the algorithm's performance much in the long run. SO we can say that for this algorithm it is O(n) time complexity. We are initialize new variable to store left and right value which we are reassigning. So the space complexity is O(1) which is constant.</p>
