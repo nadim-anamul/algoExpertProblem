@@ -26,7 +26,7 @@
 </br>
 </br>
 <h2>Solutions</h2>
-<h3>Solution with O(n) Time Complexity and O(1) Space Complexity</h3>
+<h3>Solution with O(nLogn) Time Complexity and O(1) Space Complexity</h3>
 <ul>
 <li>We need to sort the array first</li>
 <li>We need to store the initial left most array item and last array item</li>
@@ -38,7 +38,7 @@
 <li>If we don't get the target value in the array we will finally return empty array</li>
 </ul>
 <h3>Complexity Analysis</h3>
-<p>We are sorting array which we can consider time complexity of O(Logn).We loop trough all the item so for time complexity it is O(n) which is linear. So the total time complexity should be O(Logn) + O(n). Big-O notation gives us a way to compare different algorithms based on their growth rates, and ignore the constant factors or lower order terms that do not affect the algorithm's performance much in the long run. SO we can say that for this algorithm it is O(n) time complexity. We are initialize new variable to store left and right value which we are reassigning. So the space complexity is O(1) which is constant.</p>
+<p>We are sorting array which we can consider time complexity of O(nLogn).We loop trough all the item so for time complexity it is O(n) which is linear. So the total time complexity should be O(nLogn) + O(n). Big-O notation gives us a way to compare different algorithms based on their growth rates, and ignore the constant factors or lower order terms that do not affect the algorithm's performance much in the long run. SO we can say that for this algorithm it is O(nLogn) time complexity. We are initialize new variable to store left and right value which we are reassigning. So the space complexity is O(1) which is constant.</p>
 
 </br>
 <h3>Solution with O(n) Time Complexity and O(n) Space Complexity</h3>
