@@ -37,3 +37,5 @@
 <li>if the value is not equal to target we will check if the left+right value is greater than target value we need to set the right value to its previous array item.</li>
 <li>If we don't get the target value in the array we will finally return empty array</li>
 </ul>
+<h3>Complexity Analysis</h3>
+<p>We loop trough all the item so for time complexity it is O(n) which is linear. We are initialize new variable to store left and right value which we are reassigning. So the space complexity is O(1) which is constant.</p>
